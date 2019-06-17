@@ -35,6 +35,6 @@ spec:
         flexVolume:
           driver: "azure/blobfuse"
           secretRef:
-            name: blofuse-data
+            name: blofuse-datasecret
           options:
             container: datacontainer-name 
